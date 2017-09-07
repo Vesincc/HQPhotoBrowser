@@ -7,7 +7,7 @@
 //
 
 #import "HQPhotoBrowserCollectionViewCell.h"
-#import <UIImageView+WebCache.h>
+#import "UIImageView+WebCache.h"
 #import "HQPhotoProgressView.h"
 
 @interface HQPhotoBrowserCollectionViewCell() <UIScrollViewDelegate> {
