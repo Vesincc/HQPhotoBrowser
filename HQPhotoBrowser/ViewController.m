@@ -12,6 +12,7 @@
 #import "HQPhotoProgressView.h"
 #import <SDImageCache.h>
 #import "HQPhotoBrowserScaleAnimator.h"
+
 @interface ViewController ()<HQPhotoBrowserDelegate>
 
 @property (nonatomic, strong) HQPhotoBrowser *photo;
