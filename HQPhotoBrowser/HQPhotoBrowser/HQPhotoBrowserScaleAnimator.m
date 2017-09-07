@@ -32,9 +32,15 @@
     
     UIView *containerView = [transitionContext containerView];
     
+    CGRect frame = fromViewController.view.frame;
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:frame];
+    imageView.center = containerView.center;
+    imageView.image = [self hq_captureWithView:fromViewController.view];
+    
     if (self.option == HQAnimationOptionStylePresent) {
         
-        [containerView addSubview:fromViewController.view];
+        [containerView addSubview:imageView];
         toViewController.view.alpha = 0;
         [containerView addSubview:toViewController.view];
         
@@ -44,17 +50,12 @@
             
         } completion:^(BOOL finished) {
             
+            [imageView removeFromSuperview];
             [transitionContext completeTransition:YES];
             
         }];
     
     } else {
-    
-        CGRect frame = fromViewController.view.frame;
-        
-        UIImageView *imageView = [[UIImageView alloc] initWithFrame:frame];
-        imageView.center = containerView.center;
-        imageView.image = [self hq_captureWithView:fromViewController.view];
         
         [containerView addSubview:toViewController.view];
         [containerView addSubview:imageView];
