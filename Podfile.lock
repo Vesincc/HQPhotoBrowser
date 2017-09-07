@@ -1,0 +1,24 @@
+PODS:
+  - HQCategory (0.0.7)
+  - HQUIKit (0.0.4):
+    - SDWebImage
+  - Masonry (1.0.2)
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+
+DEPENDENCIES:
+  - HQCategory
+  - HQUIKit
+  - Masonry
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  HQCategory: 61ef065a53c59e51e454ba89fbaaaac0aaafc5c1
+  HQUIKit: d7c1680d8280366b9d6249f0dd02dadd9379ee16
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+
+PODFILE CHECKSUM: a03ae66d0f7b3c67deb7e7fb53c33f83cccb0bef
+
+COCOAPODS: 1.1.1

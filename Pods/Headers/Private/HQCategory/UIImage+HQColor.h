@@ -1,0 +1,1 @@
+../../../HQCategory/HQCategory/Classes/UIKit/UIImage/UIImage+HQColor.h

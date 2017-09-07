@@ -1,0 +1,1 @@
+../../../HQCategory/HQCategory/Classes/Foundation/NSData/NSData+HQBase64.h

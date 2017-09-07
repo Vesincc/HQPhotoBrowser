@@ -1,0 +1,1 @@
+../../../HQCategory/HQCategory/Classes/Foundation/Foundation_Category.h

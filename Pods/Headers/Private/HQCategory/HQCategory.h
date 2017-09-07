@@ -1,0 +1,1 @@
+../../../HQCategory/HQCategory/Classes/HQCategory.h

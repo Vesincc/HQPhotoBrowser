@@ -1,0 +1,1 @@
+../../../HQCategory/HQCategory/Classes/UIKit/NSColor/UIColor+HQHex.h
